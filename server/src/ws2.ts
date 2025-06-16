@@ -9,5 +9,4 @@ wss.on("connection", function(socket){
             socket.send("pong");
         }
     })
-
 })
